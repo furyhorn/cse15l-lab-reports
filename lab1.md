@@ -6,7 +6,7 @@ This lab report explores three fundamental commands: cd, ls, and cat, which are 
 
 *No Arguments
 
-![Image](cd1.jpg)
+![Image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/cd1.png)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
@@ -19,7 +19,7 @@ Error or not: No error is produced.
 
 *Directory Path Argument
 
-![Image](cd2.jpg)
+![Image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/cd2.png)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
@@ -32,7 +32,7 @@ Error or not: No error is produced as messages is a valid directory.
 
 *File Path Argument
 
-![Image](cd3.jpg)
+![Image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/cd3.png)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
@@ -48,7 +48,7 @@ Error or not: Trying to cd into a file results in an error.
 
 *No Arguments
 
-![Image](ls1.jpg)
+![Image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/ls1.png)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
@@ -61,7 +61,7 @@ Error or not:  No error is produced.
 
 *Directory Path Argument
 
-![Image](ls2.jpg)
+![Image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/ls2.png)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
@@ -74,7 +74,7 @@ Error or not: No error is produced since messages contains files.
 
 *File Path Argument
 
-![Image](ls3.jpg)
+![Image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/ls3.png)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
@@ -89,7 +89,7 @@ Error or not: No error is produced.
 
 *No Arguments
 
-![Image](cat1.jpg)
+![Image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/cat1.png)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
@@ -102,7 +102,7 @@ Error or not: It's not an error, but not typical usage for viewing files.
 
 *Directory Path Argument
 
-![Image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/cat1.png)
+![Image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/cat2.png)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
@@ -115,7 +115,7 @@ Error or not: No error is produced.
 
 *File Path Argument
 
-![Image](cat3.jpg)
+![Image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/cat3.png)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
