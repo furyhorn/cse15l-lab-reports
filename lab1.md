@@ -86,3 +86,41 @@ Error or not: No error is produced.
 
 
 **cat command**
+
+*No Arguments
+
+![Image](cat1.jpg)
+
+absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
+
+absolute path after: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
+
+Why that output: 'cat' without arguments reads from standard input. 
+
+Error or not: It's not an error, but not typical usage for viewing files.
+
+
+*Directory Path Argument
+
+![Image](cat2.jpg)
+
+absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
+
+absolute path after: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
+
+Why that output: 'cat' cannot be used on directories.
+
+Error or not: No error is produced.
+
+
+*File Path Argument
+
+![Image](cat3.jpg)
+
+absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
+
+absolute path after: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
+
+Why that output: 'cat' displays the contents of the specified file. 
+
+Error or not: No error is produced.
