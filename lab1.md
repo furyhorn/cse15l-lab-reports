@@ -89,7 +89,7 @@ Error or not: No error is produced.
 
 *No Arguments
 
-![Image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/cat1.png)
+![Image](/cse15l-lab-reports/cat1.png)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
