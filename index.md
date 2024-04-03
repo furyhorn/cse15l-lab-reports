@@ -2,8 +2,8 @@
 **Bold**
 # Heading 1
 ## Heading 2
-[Link]([http://a.com](https://commonmark.org/))
-![Image]([http://url/a.png](https://today.ucsd.edu/news_uploads/_social/img-primary-Geisel-UCSanDiego-ErikJepsen-090922.jpg))
+[Link](https://commonmark.org/)
+![Image](https://today.ucsd.edu/news_uploads/_social/img-primary-Geisel-UCSanDiego-ErikJepsen-090922.jpg)
 > Blockquote
 * List
 * List
