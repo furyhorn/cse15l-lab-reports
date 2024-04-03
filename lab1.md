@@ -102,7 +102,7 @@ Error or not: It's not an error, but not typical usage for viewing files.
 
 *Directory Path Argument
 
-![Image](cat2.jpg)
+![Image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/cat1.png)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
