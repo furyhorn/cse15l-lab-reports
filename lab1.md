@@ -6,7 +6,7 @@ This lab report explores three fundamental commands: cd, ls, and cat, which are 
 
 *No Arguments
 
-![Image](cd No Arguments.jpg)
+![Image](cd1.jpg)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
@@ -19,7 +19,7 @@ Error or not: No error is produced.
 
 *Directory Path Argument
 
-![Image](cd DPA.jpg)
+![Image](cd2.jpg)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
@@ -32,7 +32,7 @@ Error or not: No error is produced as messages is a valid directory.
 
 *File Path Argument
 
-![Image](cd FPA.jpg)
+![Image](cd3.jpg)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
