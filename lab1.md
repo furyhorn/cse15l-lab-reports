@@ -6,7 +6,8 @@ This lab report explores three fundamental commands: cd, ls, and cat, which are 
 
 *No Arguments
 
-![Image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/cd1.png)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/c3bba9ea-3960-44cb-9c00-f2b4f4d1c370)
+
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
