@@ -6,11 +6,9 @@ This lab report explores three fundamental commands: cd, ls, and cat, which are 
 
 *No Arguments
 
-![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/a42780ec-f8f7-4f45-8222-4f3ad4cb2927)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/5493e2c5-0027-42e1-9072-4083f7a37ba8)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
-
-absolute path after: /Users/shirleyxu
 
 Why that output: The 'cd' command without arguments takes you to your home directory by default. 
 
@@ -19,11 +17,9 @@ Error or not: No error is produced.
 
 *Directory Path Argument
 
-![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/703cbc15-60a2-4569-87f6-701a25b18721)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/ec47c357-0cee-4586-9749-bcbc7b534bc7)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
-
-absolute path after: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1/messages
 
 Why that output: Using 'cd' with a directory path changes the current directory to the specified one. 
 
@@ -32,11 +28,9 @@ Error or not: No error is produced as messages is a valid directory.
 
 *File Path Argument
 
-![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/b6aad1a3-46bd-4b3b-8224-d30df91d9fcb)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/6fc0be3b-ad32-4c0d-96f3-72a7e199f305)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
-
-absolute path after: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
 Why that output:  'cd' expects a directory, not a file. 
 
@@ -48,11 +42,9 @@ Error or not: Trying to cd into a file results in an error.
 
 *No Arguments
 
-![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/08a9fc97-1997-4433-adb8-6fb768d1d88e)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/1b39e91d-ff9a-4790-bd0f-69beb3180a89)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
-
-absolute path after: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
 Why that output: 'ls' without arguments lists all items in the current directory.
 
@@ -61,11 +53,9 @@ Error or not:  No error is produced.
 
 *Directory Path Argument
 
-![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/b185d995-a714-4399-8936-395b9288a968)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/7e0e24e6-b8c1-4697-84e2-b048d0de5dc6)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
-
-absolute path after: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
 Why that output: 'ls' with a directory path lists the contents of that directory. 
 
@@ -74,11 +64,9 @@ Error or not: No error is produced since messages contains files.
 
 *File Path Argument
 
-![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/3c60e189-9707-45a2-af37-bd30a138167c)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/948990be-5606-4c02-95d8-20fcf6b5901a)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
-
-absolute path after: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
 Why that output: 'ls' with a file path confirms the file's existence by listing it. 
 
@@ -89,11 +77,9 @@ Error or not: No error is produced.
 
 *No Arguments
 
-![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/db5d0df0-a522-4384-b371-3f9ecb67d935)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/8dda8baf-f35a-42ec-ba31-27cd324e6598)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
-
-absolute path after: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
 Why that output: 'cat' without arguments reads from standard input. 
 
@@ -102,11 +88,9 @@ Error or not: It's not an error, but not typical usage for viewing files.
 
 *Directory Path Argument
 
-![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/d8aea548-b9a3-4756-97fc-f608be4ec297)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/c0e3f470-7021-48c5-8c11-1ae4acbd2e42)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
-
-absolute path after: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
 Why that output: 'cat' cannot be used on directories.
 
@@ -115,11 +99,9 @@ Error or not: No error is produced.
 
 *File Path Argument
 
-![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/8e99df1a-ed6a-4d48-979e-c8c98767b302)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/e02b44b7-0760-4610-a54e-3890ce9c8fbe)
 
 absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
-
-absolute path after: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
 Why that output: 'cat' displays the contents of the specified file. 
 
