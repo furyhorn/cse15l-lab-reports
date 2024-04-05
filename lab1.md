@@ -4,7 +4,7 @@ This lab report explores three fundamental commands: cd, ls, and cat, which are 
 ## Command Examples
 **'cd' command**
 
-*No Arguments
+>*No Arguments
 
 ![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/5493e2c5-0027-42e1-9072-4083f7a37ba8)
 
@@ -13,7 +13,7 @@ absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 Why that output: The 'cd' command without arguments takes you to your home directory by default. 
 
 Error or not: No error is produced.
-
+---
 
 
 *Directory Path Argument
@@ -25,7 +25,7 @@ absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 Why that output: Using 'cd' with a directory path changes the current directory to the specified one. 
 
 Error or not: No error is produced as messages is a valid directory.
-
+---
 
 
 *File Path Argument
@@ -37,7 +37,7 @@ absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 Why that output:  'cd' expects a directory, not a file. 
 
 Error or not: Trying to cd into a file results in an error.
-
+---
 
 
 
@@ -52,7 +52,7 @@ absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 Why that output: 'ls' without arguments lists all items in the current directory.
 
 Error or not:  No error is produced.
-
+---
 
 
 *Directory Path Argument
@@ -64,7 +64,7 @@ absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 Why that output: 'ls' with a directory path lists the contents of that directory. 
 
 Error or not: No error is produced since messages contains files.
-
+---
 
 
 *File Path Argument
@@ -76,7 +76,7 @@ absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 Why that output: 'ls' with a file path confirms the file's existence by listing it. 
 
 Error or not: No error is produced.
-
+---
 
 
 **cat command**
@@ -90,7 +90,7 @@ absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 Why that output: 'cat' without arguments reads from standard input. 
 
 Error or not: It's not an error, but not typical usage for viewing files.
-
+---
 
 
 *Directory Path Argument
@@ -102,7 +102,7 @@ absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 Why that output: 'cat' cannot be used on directories.
 
 Error or not: No error is produced.
-
+---
 
 
 *File Path Argument
