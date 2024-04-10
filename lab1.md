@@ -102,7 +102,7 @@ absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
 
 Why that output: 'cat' cannot be used on directories.
 
-Error or not: No error is produced.
+Error or not: Trying to 'cat' a direcory results in an error.
 
 
 
