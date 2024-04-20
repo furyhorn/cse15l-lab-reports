@@ -9,7 +9,10 @@ This lab report explores three fundamental commands: cd, ls, and cat, which are 
 
 ![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/5493e2c5-0027-42e1-9072-4083f7a37ba8)
 
-absolute path before: /Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
+absolute path before: 
+```
+/Users/shirleyxu/Desktop/UCSD/CSE 15L/lecture1
+```
 
 Why that output: The 'cd' command without arguments takes you to your home directory by default. 
 
