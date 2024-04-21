@@ -1,13 +1,15 @@
 ## Part1
 **Code for ```ChatServer```**
-![image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/code.png)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/e891bf14-620a-4dd3-abda-019e9ac9d803)
+
 
 <br>
 <br>
 
 
 **Using ```/add-message```**
-![image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/AM1.png)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/09fcc4a8-cc57-4632-8662-8382d3d01712)
+
 
 **Which methods in your code are called:**<br>
 handleRequest(URI url): This method of the Handler class is called when a request is received.<br>
@@ -22,7 +24,8 @@ Thus, the field content changes from ```""``` to ```"jpolitz: Hello\n"```.
 <br>
 <br>
 
-![image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/AM2.png)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/b3c5bf09-beb7-4f16-8116-6a65f365be2b)
+
 
 **Which methods in your code are called:**<br>
 handleRequest(URI url): This method is called again with the new request.<br>
@@ -35,9 +38,10 @@ The content field is updated by appending ```yash: How are you\n```.
 The field content changes from ```jpolitz: Hello\n``` to ```jpolitz: Hello\nyash: How are you\n```.
 
 ## Part2
-![image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/lsPrivateKey.png)
-![image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/lsPublicKey.png)
-![image](https://github.com/furyhorn/cse15l-lab-reports/blob/main/remoteConnection.png)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/e0e6c793-a6f4-49f7-a507-88796fe4aaad)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/9819f1d5-c877-40a0-a049-45c44362d201)
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/58fbd390-8a73-4e06-aed4-cd4ec074c3a1)
+
 
 
 ## Part3
