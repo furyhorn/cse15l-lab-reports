@@ -50,6 +50,7 @@ The original code didn't work because it tried to directly replace elements, whi
 **4 interesting command-line options for `grep`**
 > `grep -i` <br>
 citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+<br>
 ```
 grep -i "cloud" biomed/*.txt
 biomed/1471-2156-2-18.txt:          segment cloudiness often made ophthalmoscopy difficult in
@@ -86,6 +87,7 @@ ignoring case distinctions. It's useful for quickly identifying mentions of "sno
 
 > `grep -v` <br>
 citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+<br>
 ```
 grep -v "authors" plos/pmed.0020191.txt        
 The excellent article by Jordan Paradise, Lori B. Andrews, and colleagues, “Ethics.
@@ -118,6 +120,7 @@ It's useful for filtering out lines that mention "article" from the text file,
 
 > `grep -c` <br>
 citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+<br>
 ```
 grep -c "911" 911report/*.txt
 911report/chapter-1.txt:0
@@ -168,6 +171,7 @@ It's useful for quickly obtaining a summary of how many times the term "author" 
 
 > `grep -h` <br>
 citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+<br>
 ```
 grep -h "call" 911report/chapter-12.txt
 Because the Muslim world has fallen behind the West politically, economically, and
