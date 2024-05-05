@@ -1,8 +1,53 @@
-Part 1
+## Part1
+
+**A failure-inducing input**
+```
+@Test
+  public void testReverseInPlace2() {
+    int[] input1 = { 1, 2, 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
+  }
+```
+**An input that doesn't induce a failure**
+```
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+```
+**The symptom**
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/c05ee99b-b573-4cbf-8dd9-4a56ec3fffaf)
+**The bug before code change**
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+**The bug after code change**
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int current = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = current;
+    }
+  }
+```
+
+**Why the fix addresses the issue**
+<br>
+The change fixes the problem by going through only half of the array and swapping elements from both ends. This way, it properly reverses the array in place. 
+The original code didn't work because it tried to directly replace elements, which caused them to be overwritten incorrectly.
 
 
-Part 2
-4 interesting command-line options for `grep`
+
+## Part2
+**4 interesting command-line options for `grep`**
 1. `grep -i`
 Citation: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 ```
