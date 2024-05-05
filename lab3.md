@@ -48,7 +48,7 @@ The original code didn't work because it tried to directly replace elements, whi
 
 ## Part2
 **4 interesting command-line options for `grep`**
-1. `grep -i`
+* `grep -i` <br>
 Citation: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 ```
 grep -i "cloud" biomed/*.txt
@@ -84,7 +84,7 @@ ignoring case distinctions. It's useful for quickly identifying mentions of "sno
 
 
 
-2. `grep -v`
+* `grep -v` <br>
 Citation: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 ```
 grep -v "authors" plos/pmed.0020191.txt        
@@ -116,7 +116,7 @@ Explanation:
 This command searches for lines in the `plos/pmed.0020191.txt` file that do not contain the word "article". 
 It's useful for filtering out lines that mention "article" from the text file, 
 
-3. `grep -c`
+* `grep -c` <br>
 Citation: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 ```
 grep -c "911" 911report/*.txt
@@ -166,7 +166,7 @@ Explanation:
 This command counts the occurrences of the word "author" in each `.txt` file within the 911report directory. 
 It's useful for quickly obtaining a summary of how many times the term "author" appears in each chapter or section of the 9/11 Commission Report.
 
-4. `grep -h`
+* `grep -h` <br>
 Citation: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 ```
 grep -h "call" 911report/chapter-12.txt
