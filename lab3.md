@@ -48,8 +48,8 @@ The original code didn't work because it tried to directly replace elements, whi
 
 ## Part2
 **4 interesting command-line options for `grep`**
-* `grep -i` <br>
-Citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+> `grep -i` <br>
+citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 ```
 grep -i "cloud" biomed/*.txt
 biomed/1471-2156-2-18.txt:          segment cloudiness often made ophthalmoscopy difficult in
@@ -84,8 +84,8 @@ ignoring case distinctions. It's useful for quickly identifying mentions of "sno
 
 
 
-* `grep -v` <br>
-Citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+> `grep -v` <br>
+citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 ```
 grep -v "authors" plos/pmed.0020191.txt        
 The excellent article by Jordan Paradise, Lori B. Andrews, and colleagues, “Ethics.
@@ -116,8 +116,8 @@ Explanation:
 This command searches for lines in the `plos/pmed.0020191.txt` file that do not contain the word "article". 
 It's useful for filtering out lines that mention "article" from the text file, 
 
-* `grep -c` <br>
-Citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+> `grep -c` <br>
+citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 ```
 grep -c "911" 911report/*.txt
 911report/chapter-1.txt:0
@@ -166,8 +166,8 @@ Explanation:
 This command counts the occurrences of the word "author" in each `.txt` file within the 911report directory. 
 It's useful for quickly obtaining a summary of how many times the term "author" appears in each chapter or section of the 9/11 Commission Report.
 
-* `grep -h` <br>
-Citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+> `grep -h` <br>
+citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 ```
 grep -h "call" 911report/chapter-12.txt
 Because the Muslim world has fallen behind the West politically, economically, and
