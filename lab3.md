@@ -12,11 +12,11 @@
 **An input that doesn't induce a failure**
 ```
 @Test 
-	public void testReverseInPlace() {
-    int[] input1 = { 3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3 }, input1);
-	}
+  public void testReverseInPlace() {
+	    int[] input1 = { 3 };
+	    ArrayExamples.reverseInPlace(input1);
+	    assertArrayEquals(new int[]{ 3 }, input1);
+  }
 ```
 **The symptom**
 ![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/c05ee99b-b573-4cbf-8dd9-4a56ec3fffaf)
@@ -41,15 +41,18 @@ static void reverseInPlace(int[] arr) {
 
 **Why the fix addresses the issue**
 <br>
-The change fixes the problem by going through only half of the array and swapping elements from both ends. This way, it properly reverses the array in place. 
-The original code didn't work because it tried to directly replace elements, which caused them to be overwritten incorrectly.
+The change fixes the problem by going through only half of the array and swapping elements from both ends. This way, it properly reverses the array in place. The original code didn't work because it tried to directly replace elements, which caused them to be overwritten incorrectly. In other words, the original code replaced elements in a way that caused the first elements to overwrite the last ones too early, leading to incorrect array contents.
 
+The failure-inducing input fails because the original implementation did not handle the swapping correctly, leading to an incorrect final state of the array. For instance, with the input `[1, 2, 3]`, the expected result after reversal is `[3, 2, 1]`. However, the original code would not correctly swap the elements, resulting in an unexpected array state, as shown in the error message where the actual result was `[3, 2, 1]` but the expectation was different due to incorrect swapping.
 
+On the other hand, the input `[3]` does not induce a failure because it is a single-element array. Regardless of the swapping mechanism, a single-element array remains the same when reversed. Therefore, even the flawed original implementation does not affect the result in this case, which is why the test passes.
+
+By addressing the swapping mechanism to correctly handle the array elements from both ends, the fix ensures that all elements are properly reversed.
 
 ## Part2
 **4 interesting command-line options for `grep`** <br>
 **`grep -i`** <br>
-citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+citation: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 <br>
 ```
 grep -i "cloud" biomed/*.txt
@@ -86,7 +89,7 @@ ignoring case distinctions. It's useful for quickly identifying mentions of "sno
 
 
 **`grep -v`** <br>
-citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+citation: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 <br>
 ```
 grep -v "authors" plos/pmed.0020191.txt        
@@ -119,7 +122,7 @@ This command searches for lines in the `plos/pmed.0020191.txt` file that do not 
 It's useful for filtering out lines that mention "article" from the text file, 
 
 **`grep -c`** <br>
-citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+citation: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 <br>
 ```
 grep -c "911" 911report/*.txt
@@ -170,7 +173,7 @@ This command counts the occurrences of the word "author" in each `.txt` file wit
 It's useful for quickly obtaining a summary of how many times the term "author" appears in each chapter or section of the 9/11 Commission Report.
 
 **`grep -h`** <br>
-citation: [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+citation: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 <br>
 ```
 grep -h "call" 911report/chapter-12.txt
