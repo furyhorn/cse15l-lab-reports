@@ -6,4 +6,5 @@
 
 
 Step 5
-1.
+1.![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/79256a65-245f-4606-b720-66235ee47db5)
+
