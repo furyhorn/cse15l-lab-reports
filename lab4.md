@@ -1,66 +1,67 @@
-1. ![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/7caaabf5-e602-4305-acc3-229741a39bbb)
-2. Key pressed
-   <up> <return>
-3. Summerize the Commands
-   I pressed the up arrow to get to the command ssh zix022@ieng6.ucsd.edu, which I entered previously before step 4. Then I pressed enter to run the command.
+## Step 4
+**Screenshot**
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/7caaabf5-e602-4305-acc3-229741a39bbb)
+**Keys pressed** <br>
+`<up> <enter>`<br>
+**Summerize the commands** <br>
+I pressed the `<up>` arrow to get to the command `ssh zix022@ieng6.ucsd.edu`, which I entered previously before this step. Then I pressed `<enter>` to execute the command.
+
+## Step 5
+**Screenshot**
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/79256a65-245f-4606-b720-66235ee47db5)
+**Keys pressed** <br>
+`git <space> clone <space> <Command-V> <enter>`
+<br>
+**Summerize the commands** <br>
+I entered `git clone` and then pasted the url I copied from the fork of the repository from my Github account. Then I pressed `<enter>` to execute the command.
 
 
-Step 5
-1.![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/79256a65-245f-4606-b720-66235ee47db5)
-
-2. Key pressed
-   <g> <i> <t> <space> <c> <l> <o> <n> <e> <space> <Command-V> <return>
-
-3. Summarize the Commands
-   I entered git clone and then pasted the url I copied the SSH url from the fork of the repository from my Github account.
-
-
-Step 6
-1.![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/62684393-981d-4ac2-8a84-313d05ad72cb)
+## Step 6
+**Screenshot**
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/62684393-981d-4ac2-8a84-313d05ad72cb)
+**Keys pressed** <br>
+`cd <space> l <tab> <enter> bash <space> t <tab> <enter>`
+<br>
+**Summerize the commands** <br>
+I needed to change the directory into `lab7` so I entered `cd l` and pressed the `<tab>` key so the terminal autofill `lab7` for me. Then I pressed the `<enter>` key to execute the command. Then I entered `bash t` and pressed `<tab>` key so the terminal autofill `test.sh` for me. Then I pressed `<enter>` to let the terminal execute the command.
 
 
-2.Key pressed
-<c> <d> <space> <l> <tab> <return> <b> <a> <s> <h> <t> <tab> <return>
+## Step 7
+**Screenshot**
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/d7ab2913-eb8a-47f2-8321-ae52948a56a6)
 
-3. Summarize the Commands
-   I am currently in the default directory. I needed to change the directory into lab7 so I entered cd l then pressed the tab key to let       the terminal autofill for me. I pressed the return key to execute the command. Then I entered bash t and pressed tab to let it autofill     for me. Then I pressed enter to let the terminal execute the command.
-
-
-Step 7
-1.![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/d7ab2913-eb8a-47f2-8321-ae52948a56a6)
-
-2.Keys pressed
-<v> <i> <m> <space> <capslock> <l> <tab> <.> <j> <tab> <return> <:> <4> <4> <e> <s>
-<2> <esc> <:> <w> <q> <return>
-
-3. Summarize the Commands
-I first entered vim L then pressed tab to autofill then type .j and tab to autofill and get vim ListExamples.java . I pressed enter to get into file. I typed :44 to get to line number 44 which is the corresponding line I need to make a edit. I predded e to get to the last element of the first word in line 44, which is index1 . I typed s to delete the 1 in the word index1 and I typed 2to change the word to index2 . Then I pressed esc to exit insert mode and used :wq to save and exit.
+**Keys pressed** <br>
+`vim <space> <capslock> l <tab> .j <tab> <enter> :44 <e> <s> <2> <esc> :wq <enter>`
+<br>
+**Summerize the commands** <br>
+I first entered `vim L` then pressed `<tab>` then type `.j` and `<tab>` to autofill and get `vim ListExamples.java`. I pressed `<enter>` to get into file. Then I entered `:44` to get to the corresponding line I need to make a edit. I entered `<e>` to get to the last element of the first word. Then I entered `<s>` to delete the `1` in the word `index1`, and I entered `2` to change the word to `index2` . Finally, I pressed `<esc>` to exit insert mode, and I used `:wq` to save then exit.
 
 
-Step 8
-1.![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/4cf16054-cabe-4f81-a48f-b0f8d60f68b3)
+## Step 8
+**Screenshot**
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/4cf16054-cabe-4f81-a48f-b0f8d60f68b3)
 
-2. Keys pressed
-<up> <up> <return>
-
-3. Summarize the Commands
-I pressed up arrow twice to get to the command I entered previously, which is bash test.sh and
-pressed return to execute the command.
+**Keys pressed** <br>
+`<up> <up> <enter>`
+<br>
+**Summerize the commands** <br>
+I pressed `<up>` key twice to get to the command I entered previously, which is `bash test.sh`. Then I pressed `<enter>` to execute the command.
 
 
 
-Step 9
-1.![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/63055606-163b-477c-b47e-a507ce29f5c4)
+## Step 9
+**Screenshot**
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/63055606-163b-477c-b47e-a507ce29f5c4)
 
 ![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/cd696670-d277-4cef-bdc6-551889d9df39)
 
 ![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/b5dc11e8-e868-4bfc-ad91-3162f3383031)
 
 
-2. Keys pressed:
-<g> <i> <t> <space> <c> <o> <m> <m> <i> <t> <-> <m> <space> <"> <e> <d> <i> <t> <e> <d> <"> <enter> <g> <i> <t> <space> <p> <u> <s> <h> <space> <-> <f> <enter>
-
-3. Summarize the Commands
-I typed git commit -m "edited" to commit my changes to the file ListExamples.java . Then I pushed my changes to github using git push -f.
+**Keys pressed** <br>
+`git <space> add <capslock> l <tab> .j <tab> <enter> git <space> commit <space> -m <space> "edited ListExamples.java" <enter> git <space> push <space> -f <enter>`
+<br>
+**Summerize the commands** <br>
+I entered `git add ListExamples.java` to stage the modified file `ListExamples.java`. Then I entered `git commit -m "edited ListExamples.java"` to commit my changes to the file `ListExamples.java`. At last, I pushed my changes to github using `git push -f`. Then I pressed `<enter>` to execute the command.
 
 
