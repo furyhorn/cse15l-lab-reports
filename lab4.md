@@ -16,7 +16,8 @@ Step 5
 
 
 Step 6
-1.![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/0c9ad70f-741d-415d-9d26-af63d48d0d63)
+1.![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/62684393-981d-4ac2-8a84-313d05ad72cb)
+
 
 2.Key pressed
 <c> <d> <space> <l> <tab> <return> <b> <a> <s> <h> <t> <tab> <return>
@@ -37,5 +38,29 @@ I first entered vim L then pressed tab to autofill then type .j and tab to autof
 
 
 Step 8
-1.
+1.![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/4cf16054-cabe-4f81-a48f-b0f8d60f68b3)
+
+2. Keys pressed
+<up> <up> <return>
+
+3. Summarize the Commands
+I pressed up arrow twice to get to the command I entered previously, which is bash test.sh and
+pressed return to execute the command.
+
+
+
+Step 9
+1.![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/63055606-163b-477c-b47e-a507ce29f5c4)
+
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/cd696670-d277-4cef-bdc6-551889d9df39)
+
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/b5dc11e8-e868-4bfc-ad91-3162f3383031)
+
+
+2. Keys pressed:
+<g> <i> <t> <space> <c> <o> <m> <m> <i> <t> <-> <m> <space> <"> <e> <d> <i> <t> <e> <d> <"> <enter> <g> <i> <t> <space> <p> <u> <s> <h> <space> <-> <f> <enter>
+
+3. Summarize the Commands
+I typed git commit -m "edited" to commit my changes to the file ListExamples.java . Then I pushed my changes to github using git push -f.
+
 
