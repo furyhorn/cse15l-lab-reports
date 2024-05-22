@@ -27,7 +27,8 @@ I needed to change the directory into `lab7` so I entered `cd l` and pressed the
 
 
 ## Step 7
-**Screenshot**
+**Screenshot**<br>
+![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/edbdb061-24c5-4b11-b634-dfbe1b96c415)
 ![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/d7ab2913-eb8a-47f2-8321-ae52948a56a6)
 
 **Keys pressed** <br>
@@ -38,7 +39,7 @@ I first entered `vim L` then pressed `<tab>` then type `.j` and `<tab>` to autof
 
 
 ## Step 8
-**Screenshot**
+**Screenshot**<br>
 ![image](https://github.com/furyhorn/cse15l-lab-reports/assets/165836763/4cf16054-cabe-4f81-a48f-b0f8d60f68b3)
 
 **Keys pressed** <br>
@@ -59,7 +60,7 @@ I pressed `<up>` key twice to get to the command I entered previously, which is 
 
 
 **Keys pressed** <br>
-`git <space> add <capslock> l <tab> .j <tab> <enter> git <space> commit <space> -m <space> "edited ListExamples.java" <enter> git <space> push <space> -f <enter>`
+`git <space> add <capslock> l <tab> .j <tab> <enter> git <space> commit <space> -m <space> <"> edited ListExamples.java <"> <enter> git <space> push <space> -f <enter>`
 <br>
 **Summerize the commands** <br>
 I entered `git add ListExamples.java` to stage the modified file `ListExamples.java`. Then I entered `git commit -m "edited ListExamples.java"` to commit my changes to the file `ListExamples.java`. At last, I pushed my changes to github using `git push -f`. Then I pressed `<enter>` to execute the command.
